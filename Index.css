@@ -1,0 +1,178 @@
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 25px; 
+}
+.iteam-1, .iteam-2 , .iteam-3 , .iteam-4 , .iteam-5 {
+    width: 250px;
+    height: 330px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 30px;
+}
+.cooo{
+    font-size: 65px;
+    text-align: center;
+    color: #FF90E7;
+    margin-left: 150px;
+    margin-top: 250px;
+}
+.soo{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list{
+    box-sizing: border-box;
+    height: 40px;
+    margin-left: 800px;
+    width: 1320px;
+    background-color: #ffffff;
+    padding: auto;
+    margin-top: 100px;
+}
+.list1{
+    box-sizing: border-box;
+    height: 130px;
+    margin-left: 800px;
+    width: 1320px;
+    background-color: #ffffff;
+    padding: auto;
+}
+.list2{
+    box-sizing: border-box;
+    height: 40px;
+    margin-left: 800px;
+    width: 1320px;
+    background-color: #ffffff;
+    padding: auto;
+    margin-top: 0px;
+}
+.text-head-list{
+    color: #454545;
+    display: flex;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 30px;
+}
+.iteam1, .iteam2 , .iteam3, .iteam4 , .iteam5, .iteam6 {
+    width: 200px;
+    height: 80px;
+    background-color: rgb(188, 188, 188);
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 45px;
+}
+.booo{
+    font-size: 40px;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+    flex-flow: row ;
+    margin-right: 50px;
+}
+
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    border-radius: 45px;
+    text-decoration: none;
+}
+.pagination a.active{
+    background-color: #FF90E7;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(:active){
+    background-color: #FF90E7;
+    border-radius: 5px;
+}
+.top-order-group{
+    height: 250px;
+    width: 1320px;
+    margin-left: 800px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.top-order-back{
+    background-color: #FF90E7;
+    height: 300px;
+    width: 1320px;
+    top: 40px;
+    border-radius: 25px;
+    position: absolute;
+}
+.text-top-order{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-family: Inter, "Source Sans Pro";
+    font-size: 60px;
+    margin-left: 980px;
+    margin-top: 50px;
+    text-align: right;
+    text-wrap: nowrap;
+    white-space-collapse: collapse;
+    line-height: 50px;
+}
+.name-top-order{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-family: Inter, "Source Sans Pro";
+    font-size: 30px;
+    margin-left:1080px;
+    margin-top: 30px;
+    text-align: right;
+    text-wrap: nowrap;
+}
+.name-top-order1{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-family: Inter, "Source Sans Pro";
+    font-size: 20px;
+    margin-left:1040px;
+    margin-top: 30px;
+    text-align: right;
+    text-wrap: nowrap;
+}
+.name-top-order2{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-family: Inter, "Source Sans Pro";
+    font-size: 20px;
+    margin-left:1180px;
+    margin-top: 10px;
+    text-align: right;
+    text-wrap: nowrap;
+}
+.pagination123{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+.pagination123 a{
+    color: black;
+    text-decoration: none;
+    padding: 18px 25px;
+    display: inline-block;
+}
+.pagination123 a.active{
+    background-color: hsl(120, 100%, 70%);
+    font-weight: bold;
+    border-radius: 10px;
+}
+.pagination123 a:hover:not(.active){
+    background-color: hsl(0, 0%, 77%);
+    border-radius: 10px;
+}
